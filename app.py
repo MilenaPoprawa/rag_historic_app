@@ -1,6 +1,6 @@
 import streamlit as st
 from rag_utils import RAGSystem
-from dotenv import load_dotenvç
+from dotenv import load_dotenv
 from download_utils import download_and_unzip_chroma
 
 load_dotenv()
