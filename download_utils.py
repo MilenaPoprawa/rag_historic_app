@@ -6,9 +6,9 @@ def download_and_unzip_chroma(url, extract_to="chroma_ve"):
     """
     Descargar el ZIP file usando la url y extraerlo en la ruta especificada..
     """
-    if os.path.exists(extract_to):
-        print("✅ Vectorstore ya esta presente.")
-        return
+    #if os.path.exists(extract_to):
+    #    print("✅ Vectorstore ya esta presente.")
+    #    return
 
     zip_path = "chroma_ve.zip"
     print("🔽 Descargar Chroma vectorstore...")

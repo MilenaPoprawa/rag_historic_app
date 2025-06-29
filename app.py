@@ -8,7 +8,7 @@ from download_utils import download_and_unzip_chroma
 
 load_dotenv()
 
-CHROMA_URL = "https://drive.google.com/uc?id=1G-7WQwClBt08ob9ROf1R993rnyBEX4TR&export=download"
+CHROMA_URL = "https://drive.google.com/uc?id=1jvZwAQ76qyOl0PU7JD3HpEbBlUM9zRYE&export=download"
 download_and_unzip_chroma(CHROMA_URL)
 
 st.set_page_config(page_title="RAG Histórico España → Latinoamérica", layout="wide")
