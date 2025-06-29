@@ -10,4 +10,3 @@ tqdm
 unstructured
 poppler-utils
 requests
-protobuf<4.21
