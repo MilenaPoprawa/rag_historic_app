@@ -1,8 +1,12 @@
 import streamlit as st
 from rag_utils import RAGSystem
-from dotenv import load_dotenv
+from dotenv import load_dotenvç
+from download_utils import download_and_unzip_chroma
 
 load_dotenv()
+
+CHROMA_URL = "https://drive.google.com/uc?id=1G-7WQwClBt08ob9ROf1R993rnyBEX4TR&export=download"
+download_and_unzip_chroma(CHROMA_URL)
 
 st.set_page_config(page_title="RAG Histórico España → Latinoamérica", layout="wide")
 
