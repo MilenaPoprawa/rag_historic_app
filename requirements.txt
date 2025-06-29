@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain-openai
+langchain-chroma
+langchain-community
+chromadb
+openai
+python-dotenv
+tqdm
+unstructured
+poppler-utils
