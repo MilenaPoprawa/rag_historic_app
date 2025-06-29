@@ -12,7 +12,7 @@ def download_and_unzip_chroma(url, extract_to="chroma_ve"):
 
     zip_path = "chroma_ve.zip"
     print("🔽 Descargar Chroma vectorstore...")
-    gdown.download(drive_url, zip_path, quiet=False)
+    gdown.download(url, zip_path, quiet=False)
 
     print("📦 Descomprimir...")
     with zipfile.ZipFile(zip_path, "r") as zip_ref:
